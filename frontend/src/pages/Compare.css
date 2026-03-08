@@ -1,0 +1,47 @@
+.compare-grid {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.compare-col {
+    flex: 1;
+    max-width: 300px;
+    text-align: center;
+    padding: 24px;
+    border-right: 1px solid var(--color-border);
+}
+
+.compare-col:last-child {
+    border-right: none;
+}
+
+.compare-img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1;
+    object-fit: cover;
+    border-radius: var(--radius-md);
+}
+
+.specs {
+    border-top: 1px solid var(--color-border);
+    padding-top: 24px;
+}
+
+.spec-item {
+    margin-bottom: 24px;
+}
+
+.spec-icon {
+    font-size: 24px;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.spec-item p {
+    font-size: 13px;
+    line-height: 1.4;
+    color: var(--color-text);
+}

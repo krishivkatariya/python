@@ -1,0 +1,32 @@
+.collections-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-bottom: 1px solid var(--color-border);
+    padding-bottom: 24px;
+}
+
+.filter-btn {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    border-radius: var(--radius-sm);
+    padding: 8px 16px;
+    font-size: 14px;
+}
+
+.collections-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 32px;
+}
+
+.loading-state {
+    text-align: center;
+    font-size: 18px;
+    color: var(--color-text-light);
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
