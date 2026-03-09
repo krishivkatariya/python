@@ -4,6 +4,7 @@ import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import Home from './pages/Home'
 import Collections from './pages/Collections'
+import Brands from './pages/Brands'
 import Compare from './pages/Compare'
 import Cart from './pages/Cart'
 import Login from './pages/Login'
@@ -18,7 +19,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/collections" element={<Collections />} />
-            <Route path="/brands" element={<Collections />} />
+            <Route path="/brands" element={<Brands />} />
             <Route path="/compare" element={<Compare />} />
             <Route path="/cart" element={<Cart />} />
             <Route path="/checkout" element={<Checkout />} />

@@ -117,6 +117,60 @@ def seed_db():
             'description': 'The elegant sports watch. With the rounded octagonal shape of its bezel.',
             'image_url': '/images/nautilus.png',
             'stock_quantity': 1
+        },
+        {
+            'name': 'GMT-Master II',
+            'brand': rolex,
+            'category': cat_luxury,
+            'price': '950000.00',
+            'description': 'Designed to show the time in two different time zones simultaneously.',
+            'image_url': '/images/gmt_master.png',
+            'stock_quantity': 3
+        },
+        {
+            'name': 'Aqua Terra 150M',
+            'brand': omega,
+            'category': cat_luxury,
+            'price': '550000.00',
+            'description': 'A superb tribute to OMEGA’s rich maritime heritage.',
+            'image_url': '/images/aqua_terra.png',
+            'stock_quantity': 5
+        },
+        {
+            'name': 'Vintage Calculator',
+            'brand': casio,
+            'category': cat_sports,
+            'price': '4500.00',
+            'description': 'The iconic 80s retro digital watch with a built-in calculator.',
+            'image_url': '/images/casio_vintage.png',
+            'stock_quantity': 150
+        },
+        {
+            'name': 'Monaco',
+            'brand': tag_heuer,
+            'category': cat_luxury,
+            'price': '650000.00',
+            'description': 'The timeless classic worn by Steve McQueen, featuring a square case.',
+            'image_url': '/images/monaco.png',
+            'stock_quantity': 4
+        },
+        {
+            'name': 'Aquanaut',
+            'brand': patek,
+            'category': cat_luxury,
+            'price': '2500000.00',
+            'description': 'Modern, sporty, and chic. The perfect luxury sports watch.',
+            'image_url': '/images/aquanaut.png',
+            'stock_quantity': 2
+        },
+        {
+            'name': 'Watch Hermès',
+            'brand': apple,
+            'category': cat_smart,
+            'price': '114900.00',
+            'description': 'A partnership based on parallel thinking, singular vision, and mutual regard.',
+            'image_url': '/images/hermes.png',
+            'stock_quantity': 10
         }
     ]
 
