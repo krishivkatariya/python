@@ -14,7 +14,7 @@ const Home = () => {
                     <a href="#" className="link-arrow">Learn more <ArrowRight size={14} /></a>
                 </div>
                 <div className="hero-image-wrapper">
-                    <img src="https://media.rolex.com/image/upload/q_auto:eco,f_auto,c_limit,w_800/v1/catalogue/2024/upright-c/m124060-0001" alt="Premium Watch" className="hero-image" />
+                    <img src="https://images.unsplash.com/photo-1523170335258-f5ed11844a49?auto=format&fit=crop&q=80&w=2000" alt="Premium Watch" className="hero-image" />
                 </div>
             </section>
 
@@ -24,7 +24,7 @@ const Home = () => {
                     <div className="product-card">
                         <h4>Classic Series 9</h4>
                         <p>Smarter. Brighter. Mightier.</p>
-                        <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/watch-card-40-s9-202309_GEO_IN_FMT_WHH?wid=340&hei=264&fmt=png-alpha&.v=1693611649622" alt="Watch Series 9" />
+                        <img src="https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?auto=format&fit=crop&q=80&w=600" alt="Watch Series 9" />
                         <div className="card-footer">
                             <span className="price">₹41,900</span>
                             <button className="button button-small">Buy</button>
@@ -33,7 +33,7 @@ const Home = () => {
                     <div className="product-card dark">
                         <h4>Ultra 2 </h4>
                         <p>Next level adventure.</p>
-                        <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/watch-card-40-ultra2-202409_GEO_IN_FMT_WHH?wid=340&hei=264&fmt=png-alpha&.v=1724128549641" alt="Watch Ultra 2" />
+                        <img src="https://images.unsplash.com/photo-1509048191080-d2984bad6ae5?auto=format&fit=crop&q=80&w=600" alt="Watch Ultra 2" />
                         <div className="card-footer">
                             <span className="price">₹89,900</span>
                             <button className="button button-small outline light-outline">Buy</button>
@@ -42,7 +42,7 @@ const Home = () => {
                     <div className="product-card">
                         <h4>Minimalist Edition</h4>
                         <p>Elegance in simplicity.</p>
-                        <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/watch-card-40-se-202409_GEO_IN_FMT_WHH?wid=340&hei=264&fmt=png-alpha&.v=1724032115167" alt="Watch SE" />
+                        <img src="https://images.unsplash.com/photo-1524805444758-089113d48a6d?auto=format&fit=crop&q=80&w=600" alt="Watch SE" />
                         <div className="card-footer">
                             <span className="price">₹29,900</span>
                             <button className="button button-small">Buy</button>

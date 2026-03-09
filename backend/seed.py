@@ -61,7 +61,7 @@ def seed_db():
             'category': cat_luxury,
             'price': '850000.00',
             'description': 'The reference among divers’ watches. Oyster, 41 mm, Oystersteel.',
-            'image_url': 'https://images.unsplash.com/photo-1523170335258-f5ed11844a49?auto=format&fit=crop&q=80&w=600',
+            'image_url': '/images/submariner.png',
             'stock_quantity': 5
         },
         {
@@ -70,7 +70,7 @@ def seed_db():
             'category': cat_luxury,
             'price': '1250000.00',
             'description': 'Born to race. The Cosmograph Daytona is the benchmark for those with a passion for driving.',
-            'image_url': 'https://images.unsplash.com/photo-1610488057207-68aff58fdb45?auto=format&fit=crop&q=80&w=600',
+            'image_url': '/images/daytona.png',
             'stock_quantity': 2
         },
         {
@@ -88,7 +88,7 @@ def seed_db():
             'category': cat_luxury,
             'price': '620000.00',
             'description': 'The Speedmaster is one of OMEGA’s most iconic timepieces. Having been a part of all six lunar missions.',
-            'image_url': 'https://images.unsplash.com/photo-1614164185128-e4ec99c436d7?auto=format&fit=crop&q=80&w=600',
+            'image_url': '/images/speedmaster.png',
             'stock_quantity': 8
         },
         {
@@ -97,7 +97,7 @@ def seed_db():
             'category': cat_sports,
             'price': '24995.00',
             'description': 'Designed to withstand the harshest environments. Built for extreme conditions.',
-            'image_url': 'https://images.unsplash.com/photo-1517502474161-0d350b92dbb3?auto=format&fit=crop&q=80&w=600',
+            'image_url': '/images/gshock.png',
             'stock_quantity': 40
         },
         {
@@ -106,7 +106,7 @@ def seed_db():
             'category': cat_luxury,
             'price': '275000.00',
             'description': 'A classic yet contemporary sports watch inspired by motor racing.',
-            'image_url': 'https://images.unsplash.com/photo-1533139502658-0198f920d8e8?auto=format&fit=crop&q=80&w=600',
+            'image_url': '/images/carrera.png',
             'stock_quantity': 15
         },
         {
@@ -115,7 +115,7 @@ def seed_db():
             'category': cat_luxury,
             'price': '3000000.00',
             'description': 'The elegant sports watch. With the rounded octagonal shape of its bezel.',
-            'image_url': 'https://images.unsplash.com/photo-1588667634371-cc72da5570b5?auto=format&fit=crop&q=80&w=600',
+            'image_url': '/images/nautilus.png',
             'stock_quantity': 1
         }
     ]
