@@ -18,6 +18,7 @@ const Checkout = () => {
         expiry: '',
         cvv: ''
     });
+    const [paymentMethod, setPaymentMethod] = useState('card');
     const [isProcessing, setIsProcessing] = useState(false);
     const [error, setError] = useState(null);
 
@@ -105,17 +106,47 @@ const Checkout = () => {
 
                         <section className="checkout-section mt-4">
                             <h2>Payment Method</h2>
-                            <div className="payment-card-box">
-                                <input type="text" name="cardNumber" placeholder="Card Number" required className="apple-input" value={formData.cardNumber} onChange={handleChange} maxLength="16" />
-                                <div className="form-row mt-2">
-                                    <input type="text" name="expiry" placeholder="MM/YY" required className="apple-input" value={formData.expiry} onChange={handleChange} maxLength="5" />
-                                    <input type="text" name="cvv" placeholder="CVV" required className="apple-input" value={formData.cvv} onChange={handleChange} maxLength="4" />
-                                </div>
+
+                            <div className="payment-options mb-4">
+                                <label className="payment-radio">
+                                    <input type="radio" name="payment" value="card" checked={paymentMethod === 'card'} onChange={(e) => setPaymentMethod(e.target.value)} />
+                                    Debit / Credit Card
+                                </label>
+                                <label className="payment-radio mt-2">
+                                    <input type="radio" name="payment" value="razorpay" checked={paymentMethod === 'razorpay'} onChange={(e) => setPaymentMethod(e.target.value)} />
+                                    Razorpay (UPI, GPay, Paytm)
+                                </label>
+                                <label className="payment-radio mt-2">
+                                    <input type="radio" name="payment" value="cod" checked={paymentMethod === 'cod'} onChange={(e) => setPaymentMethod(e.target.value)} />
+                                    Cash on Delivery (COD)
+                                </label>
                             </div>
+
+                            {paymentMethod === 'card' && (
+                                <div className="payment-card-box animate-fade-in">
+                                    <input type="text" name="cardNumber" placeholder="Card Number" required className="apple-input" value={formData.cardNumber} onChange={handleChange} maxLength="16" />
+                                    <div className="form-row mt-2">
+                                        <input type="text" name="expiry" placeholder="MM/YY" required className="apple-input" value={formData.expiry} onChange={handleChange} maxLength="5" />
+                                        <input type="text" name="cvv" placeholder="CVV" required className="apple-input" value={formData.cvv} onChange={handleChange} maxLength="4" />
+                                    </div>
+                                </div>
+                            )}
+
+                            {paymentMethod === 'razorpay' && (
+                                <div className="payment-gateway-box animate-fade-in">
+                                    <p className="text-light text-center p-4">You will be redirected to the secure Razorpay gateway to pay via GPay, PhonePe, Paytm, or Netbanking.</p>
+                                </div>
+                            )}
+
+                            {paymentMethod === 'cod' && (
+                                <div className="payment-gateway-box animate-fade-in">
+                                    <p className="text-light text-center p-4">Pay in cash directly to our delivery executive when your watch arrives.</p>
+                                </div>
+                            )}
                         </section>
 
                         <button className="button full-width mt-4" type="submit" disabled={isProcessing}>
-                            {isProcessing ? 'Processing Payment...' : `Pay ₹${total.toFixed(2)}`}
+                            {isProcessing ? 'Processing Order...' : paymentMethod === 'cod' ? 'Place Order' : `Pay ₹${total.toFixed(2)}`}
                         </button>
                     </form>
                 </div>
@@ -125,7 +156,11 @@ const Checkout = () => {
                     <div className="summary-items">
                         {cart.map(item => (
                             <div key={item.id} className="summary-item">
-                                <span className="summary-item-name">{item.quantity}x {item.name}</span>
+                                <img src={item.image_url} alt={item.name} className="summary-item-img" />
+                                <div className="summary-item-details">
+                                    <span className="summary-item-name">{item.name}</span>
+                                    <span className="summary-item-qty">Qty: {item.quantity}</span>
+                                </div>
                                 <span>₹{(parseFloat(item.price) * item.quantity).toFixed(2)}</span>
                             </div>
                         ))}
