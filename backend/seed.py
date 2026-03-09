@@ -34,7 +34,7 @@ def seed_db():
             'category': cat_smart,
             'price': '41900.00',
             'description': 'Smarter. Brighter. Mightier. The most advanced Apple Watch yet.',
-            'image_url': 'https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/watch-card-40-s9-202309_GEO_IN_FMT_WHH?wid=340&hei=264&fmt=png-alpha&.v=1693611649622',
+            'image_url': 'https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?auto=format&fit=crop&q=80&w=600',
             'stock_quantity': 50
         },
         {
@@ -43,7 +43,7 @@ def seed_db():
             'category': cat_sports,
             'price': '89900.00',
             'description': 'Next level adventure. Rugged, capable, and built for extreme environments.',
-            'image_url': 'https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/watch-card-40-ultra2-202409_GEO_IN_FMT_WHH?wid=340&hei=264&fmt=png-alpha&.v=1724128549641',
+            'image_url': 'https://images.unsplash.com/photo-1509048191080-d2984bad6ae5?auto=format&fit=crop&q=80&w=600',
             'stock_quantity': 30
         },
         {
@@ -52,7 +52,7 @@ def seed_db():
             'category': cat_smart,
             'price': '29900.00',
             'description': 'Essential features to help you stay connected, active, healthy, and safe.',
-            'image_url': 'https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/watch-card-40-se-202409_GEO_IN_FMT_WHH?wid=340&hei=264&fmt=png-alpha&.v=1724032115167',
+            'image_url': 'https://images.unsplash.com/photo-1524805444758-089113d48a6d?auto=format&fit=crop&q=80&w=600',
             'stock_quantity': 100
         },
         {
@@ -61,7 +61,7 @@ def seed_db():
             'category': cat_luxury,
             'price': '850000.00',
             'description': 'The reference among divers’ watches. Oyster, 41 mm, Oystersteel.',
-            'image_url': 'https://media.rolex.com/image/upload/q_auto:eco,f_auto,c_limit,w_800/v1/catalogue/2024/upright-c/m124060-0001',
+            'image_url': 'https://images.unsplash.com/photo-1523170335258-f5ed11844a49?auto=format&fit=crop&q=80&w=600',
             'stock_quantity': 5
         },
         {
@@ -70,7 +70,7 @@ def seed_db():
             'category': cat_luxury,
             'price': '1250000.00',
             'description': 'Born to race. The Cosmograph Daytona is the benchmark for those with a passion for driving.',
-            'image_url': 'https://media.rolex.com/image/upload/q_auto:eco,f_auto,c_limit,w_800/v1/catalogue/2024/upright-c/m126500ln-0001',
+            'image_url': 'https://images.unsplash.com/photo-1610488057207-68aff58fdb45?auto=format&fit=crop&q=80&w=600',
             'stock_quantity': 2
         },
         {
@@ -79,7 +79,7 @@ def seed_db():
             'category': cat_luxury,
             'price': '450000.00',
             'description': 'Since 1993, the Seamaster Professional Diver 300M has enjoyed a legendary following.',
-            'image_url': 'https://www.omegawatches.com/media/catalog/product/o/m/omega-seamaster-diver-300m-co-axial-master-chronometer-42-mm-21030422001001-f2f2bc.png',
+            'image_url': 'https://images.unsplash.com/photo-1542496658-e33a6d0d50f6?auto=format&fit=crop&q=80&w=600',
             'stock_quantity': 10
         },
         {
@@ -88,7 +88,7 @@ def seed_db():
             'category': cat_luxury,
             'price': '620000.00',
             'description': 'The Speedmaster is one of OMEGA’s most iconic timepieces. Having been a part of all six lunar missions.',
-            'image_url': 'https://www.omegawatches.com/media/catalog/product/o/m/omega-speedmaster-moonwatch-professional-co-axial-master-chronometer-chronograph-42-mm-31030425001001-c58ee1.png',
+            'image_url': 'https://images.unsplash.com/photo-1614164185128-e4ec99c436d7?auto=format&fit=crop&q=80&w=600',
             'stock_quantity': 8
         },
         {
@@ -97,7 +97,7 @@ def seed_db():
             'category': cat_sports,
             'price': '24995.00',
             'description': 'Designed to withstand the harshest environments. Built for extreme conditions.',
-            'image_url': 'https://www.casio.com/content/dam/casio/product-info/locales/in/en/timepiece/product/watch/G/GW/GWG/GWG-2000-1A1/assets/GWG-2000-1A1_seq1.png.transform/main-visual-pc/image.png',
+            'image_url': 'https://images.unsplash.com/photo-1517502474161-0d350b92dbb3?auto=format&fit=crop&q=80&w=600',
             'stock_quantity': 40
         },
         {
@@ -106,7 +106,7 @@ def seed_db():
             'category': cat_luxury,
             'price': '275000.00',
             'description': 'A classic yet contemporary sports watch inspired by motor racing.',
-            'image_url': 'https://www.tagheuer.com/on/demandware.static/-/Sites-tagheuer-master/default/dw1bc285c5/TAG_Heuer_Carrera_Chronograph/CBS2210.FC6534/CBS2210.FC6534_1000.png',
+            'image_url': 'https://images.unsplash.com/photo-1533139502658-0198f920d8e8?auto=format&fit=crop&q=80&w=600',
             'stock_quantity': 15
         },
         {
@@ -115,7 +115,7 @@ def seed_db():
             'category': cat_luxury,
             'price': '3000000.00',
             'description': 'The elegant sports watch. With the rounded octagonal shape of its bezel.',
-            'image_url': 'https://static.patek.com/images/articles/face_white/350/5811_1G_001.jpg',
+            'image_url': 'https://images.unsplash.com/photo-1588667634371-cc72da5570b5?auto=format&fit=crop&q=80&w=600',
             'stock_quantity': 1
         }
     ]
