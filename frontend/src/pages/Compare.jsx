@@ -9,7 +9,7 @@ const Compare = () => {
             <div className="compare-grid mt-4">
                 {/* Column 1 */}
                 <div className="compare-col">
-                    <img src="https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?auto=format&fit=crop&q=80&w=300" alt="Watch Series 9" className="compare-img" />
+                    <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/watch-card-40-s9-202309_GEO_IN_FMT_WHH?wid=340&hei=264&fmt=png-alpha&.v=1693611649622" alt="Watch Series 9" className="compare-img" />
                     <h3 className="mt-2">Watch Series 9</h3>
                     <p className="price mt-2">From ₹41,900</p>
                     <button className="button button-small mt-2">Find out more</button>
@@ -32,7 +32,7 @@ const Compare = () => {
 
                 {/* Column 2 */}
                 <div className="compare-col">
-                    <img src="https://images.unsplash.com/photo-1509048191080-d2984bad6ae5?auto=format&fit=crop&q=80&w=300" alt="Watch Ultra 2" className="compare-img" />
+                    <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/watch-card-40-ultra2-202409_GEO_IN_FMT_WHH?wid=340&hei=264&fmt=png-alpha&.v=1724128549641" alt="Watch Ultra 2" className="compare-img" />
                     <h3 className="mt-2">Watch Ultra 2</h3>
                     <p className="price mt-2">From ₹89,900</p>
                     <button className="button button-small mt-2">Find out more</button>
@@ -55,7 +55,7 @@ const Compare = () => {
 
                 {/* Column 3 */}
                 <div className="compare-col">
-                    <img src="https://images.unsplash.com/photo-1523170335258-f5ed11844a49?auto=format&fit=crop&q=80&w=300" alt="Submariner Date" className="compare-img" />
+                    <img src="https://media.rolex.com/image/upload/q_auto:eco,f_auto,c_limit,w_800/v1/catalogue/2024/upright-c/m124060-0001" alt="Submariner Date" className="compare-img" />
                     <h3 className="mt-2">Submariner Date</h3>
                     <p className="price mt-2">From ₹8,50,000</p>
                     <button className="button button-small mt-2">Find out more</button>
