@@ -8,7 +8,7 @@ const Home = () => {
             <section className="hero-section">
                 <h2 className="hero-headline">WatchHub Pro.</h2>
                 <h3 className="hero-subheadline">Titanium. So strong. So light. So Pro.</h3>
-                <p className="hero-price">From $999 or $41.62/mo. for 24 mo.</p>
+                <p className="hero-price">From ₹41,900 or ₹4,162/mo. for 12 mo.</p>
                 <div className="hero-cta">
                     <button className="button">Buy</button>
                     <a href="#" className="link-arrow">Learn more <ArrowRight size={14} /></a>
@@ -26,7 +26,7 @@ const Home = () => {
                         <p>Smarter. Brighter. Mightier.</p>
                         <img src="https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?auto=format&fit=crop&q=80&w=600" alt="Watch 1" />
                         <div className="card-footer">
-                            <span className="price">$399</span>
+                            <span className="price">₹41,900</span>
                             <button className="button button-small">Buy</button>
                         </div>
                     </div>
@@ -35,7 +35,7 @@ const Home = () => {
                         <p>Next level adventure.</p>
                         <img src="https://images.unsplash.com/photo-1509048191080-d2984bad6ae5?auto=format&fit=crop&q=80&w=600" alt="Watch 2" />
                         <div className="card-footer">
-                            <span className="price">$799</span>
+                            <span className="price">₹89,900</span>
                             <button className="button button-small outline light-outline">Buy</button>
                         </div>
                     </div>
@@ -44,7 +44,7 @@ const Home = () => {
                         <p>Elegance in simplicity.</p>
                         <img src="https://images.unsplash.com/photo-1524805444758-089113d48a6d?auto=format&fit=crop&q=80&w=600" alt="Watch 3" />
                         <div className="card-footer">
-                            <span className="price">$299</span>
+                            <span className="price">₹29,900</span>
                             <button className="button button-small">Buy</button>
                         </div>
                     </div>

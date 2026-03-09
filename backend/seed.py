@@ -21,6 +21,10 @@ def seed_db():
     apple, _ = Brand.objects.get_or_create(name='Apple')
     rolex, _ = Brand.objects.get_or_create(name='Rolex')
     omega, _ = Brand.objects.get_or_create(name='Omega')
+    casio, _ = Brand.objects.get_or_create(name='Casio')
+    tag_heuer, _ = Brand.objects.get_or_create(name='TAG Heuer')
+    patek, _ = Brand.objects.get_or_create(name='Patek Philippe')
+
 
     print("Creating Products...")
     products = [
@@ -28,7 +32,7 @@ def seed_db():
             'name': 'Watch Series 9',
             'brand': apple,
             'category': cat_smart,
-            'price': '399.00',
+            'price': '41900.00',
             'description': 'Smarter. Brighter. Mightier. The most advanced Apple Watch yet.',
             'image_url': 'https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?auto=format&fit=crop&q=80&w=600',
             'stock_quantity': 50
@@ -37,28 +41,82 @@ def seed_db():
             'name': 'Watch Ultra 2',
             'brand': apple,
             'category': cat_sports,
-            'price': '799.00',
+            'price': '89900.00',
             'description': 'Next level adventure. Rugged, capable, and built for extreme environments.',
             'image_url': 'https://images.unsplash.com/photo-1509048191080-d2984bad6ae5?auto=format&fit=crop&q=80&w=600',
             'stock_quantity': 30
         },
         {
+            'name': 'Watch SE',
+            'brand': apple,
+            'category': cat_smart,
+            'price': '29900.00',
+            'description': 'Essential features to help you stay connected, active, healthy, and safe.',
+            'image_url': 'https://images.unsplash.com/photo-1524805444758-089113d48a6d?auto=format&fit=crop&q=80&w=600',
+            'stock_quantity': 100
+        },
+        {
             'name': 'Submariner Date',
             'brand': rolex,
             'category': cat_luxury,
-            'price': '10250.00',
+            'price': '850000.00',
             'description': 'The reference among divers’ watches. Oyster, 41 mm, Oystersteel.',
             'image_url': 'https://images.unsplash.com/photo-1523170335258-f5ed11844a49?auto=format&fit=crop&q=80&w=600',
             'stock_quantity': 5
         },
         {
+            'name': 'Daytona',
+            'brand': rolex,
+            'category': cat_luxury,
+            'price': '1250000.00',
+            'description': 'Born to race. The Cosmograph Daytona is the benchmark for those with a passion for driving.',
+            'image_url': 'https://images.unsplash.com/photo-1610488057207-68aff58fdb45?auto=format&fit=crop&q=80&w=600',
+            'stock_quantity': 2
+        },
+        {
             'name': 'Seamaster Diver 300M',
             'brand': omega,
             'category': cat_luxury,
-            'price': '5400.00',
+            'price': '450000.00',
             'description': 'Since 1993, the Seamaster Professional Diver 300M has enjoyed a legendary following.',
             'image_url': 'https://images.unsplash.com/photo-1542496658-e33a6d0d50f6?auto=format&fit=crop&q=80&w=600',
             'stock_quantity': 10
+        },
+        {
+            'name': 'Speedmaster Moonwatch',
+            'brand': omega,
+            'category': cat_luxury,
+            'price': '620000.00',
+            'description': 'The Speedmaster is one of OMEGA’s most iconic timepieces. Having been a part of all six lunar missions.',
+            'image_url': 'https://images.unsplash.com/photo-1614164185128-e4ec99c436d7?auto=format&fit=crop&q=80&w=600',
+            'stock_quantity': 8
+        },
+        {
+            'name': 'G-Shock Mudmaster',
+            'brand': casio,
+            'category': cat_sports,
+            'price': '24995.00',
+            'description': 'Designed to withstand the harshest environments. Built for extreme conditions.',
+            'image_url': 'https://images.unsplash.com/photo-1517502474161-0d350b92dbb3?auto=format&fit=crop&q=80&w=600',
+            'stock_quantity': 40
+        },
+        {
+            'name': 'Carrera Chronograph',
+            'brand': tag_heuer,
+            'category': cat_luxury,
+            'price': '275000.00',
+            'description': 'A classic yet contemporary sports watch inspired by motor racing.',
+            'image_url': 'https://images.unsplash.com/photo-1533139502658-0198f920d8e8?auto=format&fit=crop&q=80&w=600',
+            'stock_quantity': 15
+        },
+        {
+            'name': 'Nautilus',
+            'brand': patek,
+            'category': cat_luxury,
+            'price': '3000000.00',
+            'description': 'The elegant sports watch. With the rounded octagonal shape of its bezel.',
+            'image_url': 'https://images.unsplash.com/photo-1588667634371-cc72da5570b5?auto=format&fit=crop&q=80&w=600',
+            'stock_quantity': 1
         }
     ]
 

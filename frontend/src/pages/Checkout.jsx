@@ -115,7 +115,7 @@ const Checkout = () => {
                         </section>
 
                         <button className="button full-width mt-4" type="submit" disabled={isProcessing}>
-                            {isProcessing ? 'Processing Payment...' : `Pay $${total.toFixed(2)}`}
+                            {isProcessing ? 'Processing Payment...' : `Pay ₹${total.toFixed(2)}`}
                         </button>
                     </form>
                 </div>
@@ -126,14 +126,14 @@ const Checkout = () => {
                         {cart.map(item => (
                             <div key={item.id} className="summary-item">
                                 <span className="summary-item-name">{item.quantity}x {item.name}</span>
-                                <span>${(parseFloat(item.price) * item.quantity).toFixed(2)}</span>
+                                <span>₹{(parseFloat(item.price) * item.quantity).toFixed(2)}</span>
                             </div>
                         ))}
                     </div>
                     <div className="summary-totals mt-2">
                         <div className="summary-row">
                             <span>Subtotal</span>
-                            <span>${total.toFixed(2)}</span>
+                            <span>₹{total.toFixed(2)}</span>
                         </div>
                         <div className="summary-row">
                             <span>Shipping</span>
@@ -141,7 +141,7 @@ const Checkout = () => {
                         </div>
                         <div className="summary-row total-row">
                             <span>Total</span>
-                            <span>${total.toFixed(2)}</span>
+                            <span>₹{total.toFixed(2)}</span>
                         </div>
                     </div>
                 </div>

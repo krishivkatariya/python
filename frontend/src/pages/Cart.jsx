@@ -43,7 +43,7 @@ const Cart = () => {
                         <div className="cart-details">
                             <div className="cart-item-header">
                                 <h3>{item.name}</h3>
-                                <span className="cart-price">${(parseFloat(item.price) * item.quantity).toFixed(2)}</span>
+                                <span className="cart-price">₹{(parseFloat(item.price) * item.quantity).toFixed(2)}</span>
                             </div>
                             <p className="cart-quantity">Quantity: {item.quantity}</p>
                             <button
@@ -60,7 +60,7 @@ const Cart = () => {
             <div className="cart-summary mt-4">
                 <div className="summary-row">
                     <span>Subtotal</span>
-                    <span>${total.toFixed(2)}</span>
+                    <span>₹{total.toFixed(2)}</span>
                 </div>
                 <div className="summary-row">
                     <span>Shipping</span>
@@ -68,7 +68,7 @@ const Cart = () => {
                 </div>
                 <div className="summary-row total-row">
                     <span>Total</span>
-                    <span>${total.toFixed(2)}</span>
+                    <span>₹{total.toFixed(2)}</span>
                 </div>
 
                 <div className="cart-actions mt-4">

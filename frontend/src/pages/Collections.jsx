@@ -37,7 +37,7 @@ const Collections = () => {
                         <p>{product.description?.substring(0, 50)}...</p>
                         <img src={product.image_url} alt={product.name} />
                         <div className="card-footer">
-                            <span className="price">${product.price}</span>
+                            <span className="price">₹{product.price}</span>
                             <button className="button button-small" onClick={() => { addToCart(product); alert(`${product.name} added to your bag!`); }}>Add to Bag</button>
                         </div>
                     </div>
